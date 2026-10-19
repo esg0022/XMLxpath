@@ -1,0 +1,54 @@
+<?xml version = "1.0"?>
+<!--Document type definition (DTD) para el setValidating(true)-->
+<!DOCTYPE class [
+
+<!ELEMENT class (estudiante+)>
+
+<!ELEMENT estudiante (nombre,apellido1,apellido2,nota_media)>
+<!ATTLIST estudiante id CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT nota_media (#PCDATA)>
+
+]>
+
+<class>
+ <estudiante id= "101">
+   <nombre>Luis</nombre>
+   <apellido1>Rodriguez</apellido1>
+   <apellido2>Jimenez</apellido2>
+   <nota_media>9</nota_media>
+ </estudiante>
+ <estudiante id= "102">
+   <nombre>Laura</nombre>
+   <apellido1>Martinez</apellido1>
+   <apellido2>Rueda</apellido2>
+   <nota_media>9</nota_media>
+ </estudiante>
+ <estudiante id= "103">
+   <nombre>Lucas</nombre>
+   <apellido1>Garcia</apellido1>
+   <apellido2>Fernandez</apellido2>
+   <nota_media>10</nota_media>
+ </estudiante>
+ <estudiante id= "104">
+   <nombre>Carlos</nombre>
+   <apellido1>Mesas</apellido1>
+   <apellido2>Fernandez</apellido2>
+   <nota_media>8</nota_media>
+ </estudiante>
+ <estudiante id= "105">
+   <nombre>Antonio</nombre>
+   <apellido1>Guzman</apellido1>
+   <apellido2>Martinez</apellido2>
+   <nota_media>9</nota_media>
+ </estudiante>
+ <estudiante id= "106">
+   <nombre>Daniela</nombre>
+   <apellido1>Halir</apellido1>
+   <apellido2>Florez</apellido2>
+   <nota_media>8</nota_media>
+ </estudiante>
+</class>
